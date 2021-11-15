@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table {
+          border-collapse: collapse;
+          border-spacing: 0;
+          width: 100%;
+          border: 1px solid #ddd;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 16px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #4e2020;
+        }
+        body {background-color: #4510be8e;}
+        </style>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Welcome</a>
+        <a href="section1.html">About</a>
+        <!--add drop down: Recent Events, History-->
+        <a href="section2.html">Roster</a>
+        <!--add drop down: Current Roster, Hall of Fame-->
+        <a href="section3.html">Games</a>
+        <a href="see_also.html">See Also</a>
+        <a href="references.html">References</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <h2>These are the upcoming games</h2>
+        <table>
+          <tr>
+            <th>Date</th>
+            <th>Game</th>
+            <th>Time</th>
+          </tr>
+          <tr>
+            <td>Nov 6</td>
+            <td>Lakers vs Trail Blazers</td>
+            <td>7:30pm</td>
+          </tr>
+          <tr>
+            <td>Nov 8</td>
+            <td>Lakers vs Hornets</td>
+            <td>7:30pm</td>
+          </tr>
+          <tr>
+            <td>Nov 10</td>
+            <td>Heat vs Lakers</td>
+            <td>7:00pm</td>
+          </tr>
+        </table>
+    </div>
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
